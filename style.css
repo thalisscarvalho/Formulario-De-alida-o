@@ -2,12 +2,6 @@
     margin: 0%;
     padding: 0%;
 }
-body{
-    background: rgb(54, 53, 53);
-    color: white;
-    font: normal 10pt arial;
-}
-
 #cont{
     width: 800px;
     height: 430px;
