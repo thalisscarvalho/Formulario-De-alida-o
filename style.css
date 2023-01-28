@@ -1,0 +1,153 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(54, 53, 53);
+    color: white;
+    font: normal 10pt arial;
+}
+
+#cont{
+    width: 800px;
+    height: 430px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px 1px rgb(28, 28, 29);
+
+}
+/*Contato*/
+h1{
+    position: relative;
+    width: 300px;
+    border-bottom: 2px white solid;
+    margin: 50px;
+}
+/*////////////////////////*/
+/*emal e contato*/
+#msg{
+    position: relative;
+    margin:auto;
+    width: 250px;
+    text-align: left;
+    left: -220px;
+}
+img{
+    width: 30px;
+    margin: 10px;
+    margin-bottom: -5px;
+}
+p{
+    margin-left: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*Input*/
+#ipt{
+    width: 300px;
+    position: relative;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+input{
+    padding: 10px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    box-shadow: 0px 0px 5px white;
+    outline: none;
+}
+label{
+    display:none;
+}
+/*mensagem*/
+#txt{
+    height: 100px;
+    outline: none;
+    text-indent: 10px;
+    
+    border-radius: 10px;
+}
+/*cursor no botão enviar*/
+#bt{
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    box-shadow: 12px 14px 55px rgb(47, 23, 70);
+    background: rgb(121, 28, 197);
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*Responsivo*/
+@media screen and (max-width: 770px) {
+    
+    #cont{
+        position: relative;
+        width: 630px;
+        height: 380px;
+        margin: auto;
+        margin-top: 50px;
+    
+    }
+    #ipt{
+        margin-top: -220px;
+    }
+    /*Contato*/
+    h1{
+        position: relative;
+        width: 200px;
+        border-bottom: 2px white solid;
+        font-size: 15pt;
+    }
+    /*////////////////////////*/
+    /*emal e contato*/
+    #msg{
+        position: relative;
+        margin:auto;
+        width: 220px;
+        text-align: left;
+        display:block ;
+    }
+    img{
+        width: 25px;
+        padding: 0%;
+        margin-bottom: -5px;
+    }
+    /*Input*/
+    input{
+        padding: 10px;
+        width: 290px;
+        border-radius: 20px;
+        border: none;
+        margin-left: -80px;
+    }
+    label{
+        display: block;
+        text-align: left;
+        margin: -5px;
+        position: fixed;
+    }
+    #txt{
+        width: 300px;
+        height: 100px;
+        margin-left: -80px;
+        
+    }
+    #bt{
+        padding: 10px;
+        width: 250px;
+        border-radius: 20px;
+        margin: 20px -50px;
+    }
+}
