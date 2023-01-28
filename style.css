@@ -63,6 +63,7 @@ input{
 }
 label{
     display:none;
+    position: relative;
 }
 /*mensagem*/
 #txt{
